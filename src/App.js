@@ -9,11 +9,13 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import List from './components/List'
+import Slide from './components/Slider'
 
 export default class App extends Component {
   render() {
     return (
       <View style={[{flex:1},styles.container]}>
+        <Slide/>
         <List />
       </View>
     );
